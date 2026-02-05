@@ -19,6 +19,7 @@ If your university/work uses it, you can run most designs there too.
 ## Quick start (GHDL)
 If you’re new, start here:
 - **docs/getting-started.md**
+- **docs/learning-path.md** (the staircase)
 
 1) Install tools
 - Ubuntu/Debian:
