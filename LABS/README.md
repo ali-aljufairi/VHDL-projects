@@ -2,6 +2,8 @@
 
 Lab exercises / submissions.
 
+Start with **00-Labs-Index.md**.
+
 ## How to use
 - Each lab folder should ideally contain:
   - the design files (`*.vhd` / `*.vhdl`)

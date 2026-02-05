@@ -1,6 +1,8 @@
 # Projects
 
-This folder contains the main set of VHDL mini-projects (often course-style tasks).
+This folder contains the main set of VHDL mini-projects.
+
+If you’re new, start with **00-Projects-Index.md**.
 
 ## Typical contents
 - One or more `*.vhd` design files

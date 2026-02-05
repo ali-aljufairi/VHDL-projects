@@ -27,7 +27,7 @@ Start with **Projects/** because it’s the most consistent.
 
 ### Example (adjust filenames to match the folder)
 ```bash
-cd Projects/project9
+cd Projects/alu-registerfile
 
 ghdl -a --std=08 pkg.vhd alu.vhd lab2_part2.vhd tb_lab2_part2.vhd
 ghdl -e --std=08 tb_lab2_part2

@@ -27,11 +27,11 @@ If you’re new, start here:
 
 2) Pick a project with a testbench
 Example:
-- `Projects/project9/` contains `tb_*.vhd`
+- `Projects/alu-registerfile/` contains `tb_*.vhd`
 
 3) Simulate one project (example)
 ```bash
-cd Projects/project9
+cd Projects/alu-registerfile
 # Analyze
 ghdl -a --std=08 pkg.vhd alu.vhd lab2_part2.vhd tb_lab2_part2.vhd
 # Elaborate + run
