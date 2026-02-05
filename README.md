@@ -17,22 +17,18 @@ This repo is meant to be practical: open a folder, run a simulation, learn a con
 If your university/work uses it, you can run most designs there too.
 
 ## Quick start (GHDL)
-> The repo contains many independent projects. Start with one folder and simulate it.
+If you’re new, start here:
+- **docs/getting-started.md**
 
 1) Install tools
 - Ubuntu/Debian:
   - `sudo apt-get install ghdl gtkwave`
 
 2) Pick a project with a testbench
-For example (paths may vary):
+Example:
 - `Projects/project9/` contains `tb_*.vhd`
 
-3) Run a simple syntax check (from repo root)
-```bash
-./scripts/ghdl_syntax_check.sh
-```
-
-4) Simulate one project (example)
+3) Simulate one project (example)
 ```bash
 cd Projects/project9
 # Analyze
@@ -45,11 +41,11 @@ gtkwave wave.vcd
 ```
 
 ## Repository map
-- **Projects/** — main set of course-style projects (often with testbenches)
-- **LABS/** — lab exercises and lab submissions
-- **Codes to learn from/** — older material, exam solutions, and assorted references
-- **scripts/** — helper scripts (GHDL checks, etc.)
-- **docs/** — extra documentation (CI notes, conventions)
+- **Projects/** — the best place to start (most consistent)
+- **LABS/** — lab exercises/submissions
+- **Codes to learn from/** — older material/exam solutions (less consistent)
+- **scripts/** — helper scripts
+- **docs/** — beginner docs and navigation help
 
 ## Conventions (lightweight)
 - Most VHDL here targets **VHDL-2008** (`--std=08`).
