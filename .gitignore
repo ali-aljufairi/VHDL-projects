@@ -1,20 +1,39 @@
+# --- Quartus / Intel FPGA ---
 *.qpf
 *.qws
-*.vhd.bak
+*.qsf
+*.rpt
 *.kpt
 *.cnf.cdb
 *.cmp.cdb
-*.json
-*.v
-*.qsf
-*.rpt
-\db
-\incremnatal_db
-\simulation
-\output_files
-\compiled_partitions
-\_flat
-\root_partition
-\incremnatal_db
-    
 
+# Common Quartus output folders
+/db/
+/incremental_db/
+/simulation/
+/output_files/
+/compiled_partitions/
+/_flat/
+/root_partition/
+
+# --- Backups / editor temp ---
+*.bak
+*.vhd.bak
+*~
+.DS_Store
+
+# --- GHDL / simulation artifacts ---
+work-obj*.cf
+*.cf
+*.o
+*.vcd
+*.ghw
+
+# --- ModelSim / Questa ---
+transcript
+vsim.wlf
+wlft* 
+modelsim.ini
+
+# --- Other generated files ---
+*.json
