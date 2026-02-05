@@ -20,14 +20,14 @@ Goal: understand how a project shares constants/types.
 ## Step 3 — Testbenches (how you actually learn)
 Goal: learn the “tight loop”: edit → simulate → view waveforms.
 Recommended folders (because they include `tb_*.vhd`):
-- `Projects/project9/` (ALU + small register array + testbench)
-- `Projects/project10/` (lab3 part2 + package + testbench)
-- `Projects/project11/` (lab4 part2 + package + testbench)
-- `Projects/project12/` (lab4 + package + testbench)
+- `Projects/alu-registerfile/` (ALU + small register array + testbench)
+- `Projects/decrementer-zero-flag/` (decrementer + zero flag + testbench)
+- `Projects/ram-read-rise-write-fall/` (RAM: read on rising edge, write on falling edge + testbench)
+- `Projects/ram-single-clock-tb/` (RAM + testbench)
 
 How to run (example):
 ```bash
-cd Projects/project9
+cd Projects/alu-registerfile
 
 ghdl -a --std=08 pkg.vhd alu.vhd lab2_part2.vhd tb_lab2_part2.vhd
 
@@ -40,7 +40,7 @@ gtkwave wave.vcd
 
 ## Step 4 — “Bigger” top modules
 Goal: learn top-level wiring + hex/7-seg helpers.
-- `Projects/project30/`, `Projects/project31/`, `Projects/project32/`
+- `Projects/top-hex2led-variant-a/`, `Projects/top-hex2led-variant-b/`, `Projects/top-hex2led-variant-c/`
   - contain `top.vhd` / `Top-mod.vhd` and `Hex2LED.vhd`
 
 ## Step 5 — Clean up / improve (best way to learn)
